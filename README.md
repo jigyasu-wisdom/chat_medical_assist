@@ -28,7 +28,7 @@ medical-rag-app/
 
 ## How It Works
 
-1. **PDF Loading** — PyMuPDFLoader reads the medical manual
+1. **PDF Loading** — PyMuPDFLoader reads the merck medical manual
 2. **Chunking** — RecursiveCharacterTextSplitter splits into 512-token chunks (128 overlap)
 3. **Embedding** — BAAI/bge-base-en-v1.5 generates vector embeddings
 4. **Vector Store** — ChromaDB stores and indexes the embeddings
